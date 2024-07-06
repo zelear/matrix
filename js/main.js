@@ -41,6 +41,8 @@ document.body.onload = async () => {
 			canvas.style.display = "unset";
 			document.body.removeChild(notice);
 		});
+		const title = document.createElement("title");
+		title.innerHTML = '<p class="title>">AA</p>';
 	} else {
 		(await solution).default(canvas, config);
 	}
