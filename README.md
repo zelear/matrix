@@ -180,3 +180,4 @@ The glyphs are formatted as a multi-channel distance field (or MSDF) via Victor 
 The raindrops themselves are particles [computed on the GPU and stored in textures](https://threejs.org/examples/webgl_gpgpu_water.html), much smaller than the final render. The data sent from the CPU to the GPU every frame is negligible.
 
 а? шо?
+фыр
